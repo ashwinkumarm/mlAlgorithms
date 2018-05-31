@@ -42,6 +42,14 @@ This repository consists of several machine learning algorithms being implemente
  
  The below image explains the implementaion details of perceptron with stochastic gradient. 
  
- ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/stochasticgradient.png)
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/stochastic_gradient.png)
+ 
+ ### Dataset
+ perceptron dataset is used. 
+ 
+ ### Procedure to run & Result shown
+ File name is stochasticLearning.py. Just provide the correct path for perceptron dataset and run the code. 
+ 
+ W and B are printed once the values are converge. Total number of steps taken to converge are also printed. 
  
  
