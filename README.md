@@ -26,5 +26,5 @@ This repository consists of several machine learning algorithms being implemente
  
  ## Perceptron
  
- ![alt text](http://url/to/img.png)
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/perceptron.png)
 
