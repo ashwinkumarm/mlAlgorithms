@@ -8,7 +8,7 @@ import pandas as pd
 
 
 def perceptron():
-    df = pd.read_csv("D:\semester_3\machine learning\Assgn\Assgn1\perceptron.data",sep = ',',header = None, names = ["A","B","C","D","E"])
+    df = pd.read_csv("perceptron.data",sep = ',',header = None, names = ["A","B","C","D","E"])
     X = df[['A','B','C','D']]  
     Y = df[['E']] 
     w = np.zeros(4)
