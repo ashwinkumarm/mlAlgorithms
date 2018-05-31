@@ -34,7 +34,7 @@ This repository consists of several machine learning algorithms being implemente
  perceptron dataset is used. 
  
  ### Procedure to run & Result shown
- File name is perceptronLearning.py. Just provide the correct path for perceptron dataset and run the code. 
+ File name is perceptron/perceptronLearning.py. Just provide the correct path for perceptron dataset and run the code. 
  
  W and B for each iteration is printed. When the value is converged it stops. 
  
@@ -48,7 +48,7 @@ This repository consists of several machine learning algorithms being implemente
  perceptron dataset is used. 
  
  ### Procedure to run & Result shown
- File name is stochasticLearning.py. Just provide the correct path for perceptron dataset and run the code. 
+ File name is perceptron/stochasticLearning.py. Just provide the correct path for perceptron dataset and run the code. 
  
  W and B are printed once the values are converge. Total number of steps taken to converge are also printed. 
  
