@@ -23,3 +23,8 @@ This repository consists of several machine learning algorithms being implemente
  File name is primalSVM.m. Just provide the correct path for mystery dataset and run the code. 
  
  Value of weights and bias will be printed along with support vectors. 
+ 
+ ## Perceptron
+ 
+ ![alt text](http://url/to/img.png)
+
