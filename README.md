@@ -24,11 +24,11 @@ This repository consists of several machine learning algorithms being implemente
  
  Value of weights and bias will be printed along with support vectors. 
  
- ## Perceptron
+ ## Perceptron - Gradient Descent
  
  The below image explains the implementaion details of perceptron. 
  
- ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/perceptron.png)
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/perceptron.png)
  
  ### Dataset
  perceptron dataset is used. 
@@ -37,5 +37,11 @@ This repository consists of several machine learning algorithms being implemente
  File name is perceptronLearning.py. Just provide the correct path for perceptron dataset and run the code. 
  
  W and B for each iteration is printed. When the value is converged it stops. 
+ 
+ ## Perceptron - Stochastic Gradient Descent
+ 
+ The below image explains the implementaion details of perceptron with stochastic gradient. 
+ 
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/stochasticgradient.png)
  
  
