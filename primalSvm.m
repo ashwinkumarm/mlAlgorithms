@@ -1,5 +1,5 @@
 %Load data
-inp = importdata('D:\semester_3\machine learning\Assgn\Assgn1\mystery.data');
+inp = importdata('mystery.data');
 %Class Label
 Y = inp(:,5);
 %Input - Using cubic kernel  
