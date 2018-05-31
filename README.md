@@ -19,7 +19,7 @@ This repository consists of several machine learning algorithms being implemente
  ### Dataset
  UCI mystery dataset is being used. 
  
- ### Procedure to run
+ ### Procedure to run & Result shown
  File name is primalSVM.m. Just provide the correct path for mystery dataset and run the code. 
  
  Value of weights and bias will be printed along with support vectors. 
