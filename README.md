@@ -1,6 +1,6 @@
 # Machine Learning Algorithms
 
-This repository consists of several machine learning algorithms being implemented from scratch using Python and Matlab. Each algorithm is explained breifly below. Datasets are taken from UCI. For each algorithm, UCI dataset name is being mentioned.  
+This repository consists of several machine learning algorithms being implemented from scratch using Python and Matlab. Each algorithm is explained breifly below. Most of the datasets are taken from UCI. If data is taken from dataset, then the name is mentioned. Otherwise you can find the dataset in /data folder.
 
 ## Primal SVM
 
@@ -17,7 +17,7 @@ This repository consists of several machine learning algorithms being implemente
  b is vector of 1
  
  ### Dataset
- UCI mystery dataset is being used. 
+ mystery dataset is being used. 
  
  ### Procedure to run & Result shown
  File name is primalSVM.m. Just provide the correct path for mystery dataset and run the code. 
@@ -26,5 +26,16 @@ This repository consists of several machine learning algorithms being implemente
  
  ## Perceptron
  
+ The below image explains the implementaion details of perceptron. 
+ 
  ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/perceptron.png)
-
+ 
+ ### Dataset
+ perceptron dataset is used. 
+ 
+ ### Procedure to run & Result shown
+ File name is perceptronLearning.py. Just provide the correct path for perceptron dataset and run the code. 
+ 
+ W and B for each iteration is printed. When the value is converged it stops. 
+ 
+ 
