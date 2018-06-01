@@ -1,6 +1,6 @@
 # Machine Learning Algorithms
 
-This repository consists of several machine learning algorithms being implemented from scratch using Python and Matlab. Each algorithm is explained breifly below. Most of the datasets are taken from UCI. If data is taken from dataset, then the name is mentioned. Otherwise you can find the dataset in /data folder.
+This repository consists of several machine learning algorithms being implemented from scratch using Python and Matlab. Each algorithm is explained breifly below. Most of the datasets are taken from UCI. If data is taken from UCI dataset, then the name is mentioned. Otherwise you can find the dataset in /data folder.
 
 ## Primal SVM
 
