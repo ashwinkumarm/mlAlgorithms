@@ -81,4 +81,15 @@ This repository consists of several machine learning algorithms being implemente
  
  Accuracy for each value of c for training and validation data set will be printed. Model automaticaly fine tunes and would print the result for test data set with tuned hyper parameters. 
  
+ ## K Nearest Neighbours
+ 
+ To find the nearest neighbours, simple distance formula is being used. In future we can K Dimensional Tree to improve the performance of the model.
+ 
+ ### Dataset
+ UCI's breast cancer data set is being used. We have randomly separated the dataset to training and test dataset.
+ 
+ ### Procedure to run & Result shown
+ File name is kNearest.py. Just provide the correct path for breast cancer dataset and run the code. 
+ 
+ Accuracy for each value of k for the test data set will be printed. 
  
