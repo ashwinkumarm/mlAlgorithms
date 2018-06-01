@@ -91,5 +91,20 @@ This repository consists of several machine learning algorithms being implemente
  ### Procedure to run & Result shown
  File name is kNearest.py. Just provide the correct path for breast cancer dataset and run the code. 
  
- Accuracy for each value of k for the test data set will be printed. 
+ Accuracy for each value of k for the test data set will be printed.
+ 
+ 
+ ## Decision Tree -- Information Gain Based
+ 
+ Atrribute split for decision tree is based on the Information Gain for the attributes. Higher the information gain less uncertainity about Y given X. Following image shows the formula for entropy calculation in IG. 
+ 
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/dual.png)
+ 
+ ### Dataset
+ UCI's Mushroom data set is being used. We have randomly separated the dataset to training and test dataset.
+ 
+ ### Procedure to run & Result shown
+ File name is decisionTreeMushroom.py. Just provide the correct path for mushroom dataset and run the code. 
+ 
+ Accuracy for each training and test data set will be printed.
  
