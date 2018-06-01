@@ -98,7 +98,7 @@ This repository consists of several machine learning algorithms being implemente
  
  Atrribute split for decision tree is based on the Information Gain for the attributes. Higher the information gain less uncertainity about Y given X. Following image shows the formula for entropy calculation in IG. 
  
- ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/dual.png)
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/decisiontree_entropy.png)
  
  ### Dataset
  UCI's Mushroom data set is being used. We have randomly separated the dataset to training and test dataset.
