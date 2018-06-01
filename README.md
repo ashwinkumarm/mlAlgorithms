@@ -67,3 +67,18 @@ This repository consists of several machine learning algorithms being implemente
  Accuracy for each value of c for training and validation data set will be printed. Model automaticaly fine tunes and would print the result for test data set with tuned hyper parameters. 
  
  
+ ## Dual SVM 
+ 
+ The below image explains the implementaion details of Dual svm 
+ 
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/svmwithslack.png)
+ 
+ ### Dataset
+ UCI's breast cancer data set is being used. We have randomly separated the dataset to training, validation and test dataset - (0.6, 0.2, 0.2)
+ 
+ ### Procedure to run & Result shown
+ File name is dualSvm.m. Just provide the correct path for breast cancer dataset and run the code. 
+ 
+ Accuracy for each value of c for training and validation data set will be printed. Model automaticaly fine tunes and would print the result for test data set with tuned hyper parameters. 
+ 
+ 
