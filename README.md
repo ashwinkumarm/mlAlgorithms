@@ -52,4 +52,18 @@ This repository consists of several machine learning algorithms being implemente
  
  W and B are printed once the values are converge. Total number of steps taken to converge are also printed. 
  
+ ## Primal SVM with Slack 
+ 
+ The below image explains the implementaion details of primal svm with slack
+ 
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/stochastic_gradient.png)
+ 
+ ### Dataset
+ UCI's breast cancer data set is being used. We have randomly separated the dataset to training, validation and test dataset - (0.6, 0.2, 0.2)
+ 
+ ### Procedure to run & Result shown
+ File name is primalSvmWithSlack.m. Just provide the correct path for breast cancer dataset and run the code. 
+ 
+ Accuracy for each value of c for training and validation data set will be printed. Model automaticaly fine tunes and would print the result for test data set with tuned hyper parameters. 
+ 
  
