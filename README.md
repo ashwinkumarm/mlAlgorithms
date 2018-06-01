@@ -71,7 +71,7 @@ This repository consists of several machine learning algorithms being implemente
  
  The below image explains the implementaion details of Dual svm 
  
- ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/svmwithslack.png)
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/dual.png)
  
  ### Dataset
  UCI's breast cancer data set is being used. We have randomly separated the dataset to training, validation and test dataset - (0.6, 0.2, 0.2)
