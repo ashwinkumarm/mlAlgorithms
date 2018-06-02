@@ -108,3 +108,19 @@ This repository consists of several machine learning algorithms being implemente
  
  Accuracy for each training and test data set will be printed.
  
+ ## AdaBoost
+ 
+ We have considered hypothesis space to be all possible 3 attribute split decision tree. To increase / decrease the number of iteration, change the value of M accordingly. 
+ 
+ The implemention/algorithm details is explained in the below image. 
+  
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/decisiontree_entropy.png)
+ 
+ ### Dataset
+ UCI's Heart data set is being used. We have randomly separated the dataset to training and test dataset.
+ 
+ ### Procedure to run & Result shown
+ File name is adaBoost.py. Just provide the correct path for heart dataset and run the code. 
+ 
+ Accuracy for each round for both training and test data set will be printed.
+ 
