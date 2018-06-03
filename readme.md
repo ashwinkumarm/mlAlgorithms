@@ -124,3 +124,20 @@ This repository consists of several machine learning algorithms being implemente
  
  Accuracy for each round for both training and test data set will be printed.
  
+
+## Naive Bayes
+ Our training data is continous, so we have used guassian distribution for conditional probability distribution of each continous feature. 
+ 
+ The implemention/algorithm details is explained in the below image. 
+  
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/adaboost.png)
+ 
+ ### Dataset
+ UCI's Spambase data set is being used. We have randomly separated the dataset to training and test dataset.
+ 
+ ### Procedure to run & Result shown
+ File name is naive_guassian.m. Just provide the correct path for Spambase dataset and run the code. 
+ 
+ Accuracy for test data set will be printed.
+ 
+
