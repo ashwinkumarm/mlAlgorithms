@@ -130,7 +130,7 @@ This repository consists of several machine learning algorithms being implemente
  
  The implemention/algorithm details is explained in the below image. 
   
- ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/adaboost.png)
+ ![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/naive_bayes.png)
  
  ### Dataset
  UCI's Spambase data set is being used. We have randomly separated the dataset to training and test dataset.
