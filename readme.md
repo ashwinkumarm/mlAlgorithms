@@ -175,7 +175,7 @@ Algorithm for constructing Info Gain Matrix is shown below:
  
 Algorithm for EM algorithm is shown below:
 
-![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/infogain_BN.png)
+![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/EM_BN.png)
 
 ### Dataset
  UCI's congress data set is being used. We have used observation with missing entries.
