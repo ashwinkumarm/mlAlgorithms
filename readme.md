@@ -155,4 +155,19 @@ Algorithm for a given k and s is explained by the following image:
  
  Accuracy for test data set for eachc K and C will be printed.
  
+ ## Constructing a Bayesian Network Model 
+ To cosntruct a Bayesian Network model, we need to construct Info Gain Matrix for each edges and pass through a model which finds the maximum spanning tree. We have used matlab inbuit method to construct maximum spanning tree. 
+ 
+Algorithm for constructing Info Gain Matrix is shown below:
+
+![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/pca_featureSelection.png)
+
+### Dataset
+ UCI's congress data set is being used. We have used observation with no missing entry to construct the bayesian network.
+ 
+ ### Procedure to run & Result shown
+ File name is bayesianNW.m. Just provide the correct path for congress dataset and run the code. 
+ 
+ The maximum spanning tree will be displayed.
+ 
 
