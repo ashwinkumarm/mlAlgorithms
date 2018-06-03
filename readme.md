@@ -160,7 +160,7 @@ Algorithm for a given k and s is explained by the following image:
  
 Algorithm for constructing Info Gain Matrix is shown below:
 
-![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/pca_featureSelection.png)
+![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/infogain_BN.png)
 
 ### Dataset
  UCI's congress data set is being used. We have used observation with no missing entry to construct the bayesian network.
