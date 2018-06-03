@@ -140,4 +140,19 @@ This repository consists of several machine learning algorithms being implemente
  
  Accuracy for test data set will be printed.
  
+ ## Using PCA for Feature Selection 
+ If we performed PCA directly on the training data, we would generate new features that are linear combinations of our original features. If instead, we wanted to find a subset of our current features that were good for classification, we could still use PCA, but we would need to be more clever about it. The primary idea in this approach is to select features from the data that are good at explaining as much of the variance as possible. To do this, we can use the results of PCA as a guide. 
+
+Algorithm for a given k and s is explained by the following image:
+
+![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/naive_bayes.png)
+
+### Dataset
+ UCI's Spambase data set is being used. We have randomly separated the dataset to training and test dataset.
+ 
+ ### Procedure to run & Result shown
+ File name is naivePca.m. Just provide the correct path for Spambase dataset and run the code. 
+ 
+ Accuracy for test data set for eachc K and C will be printed.
+ 
 
