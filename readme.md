@@ -145,7 +145,7 @@ This repository consists of several machine learning algorithms being implemente
 
 Algorithm for a given k and s is explained by the following image:
 
-![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/naive_bayes.png)
+![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/pca_featureSelection.png)
 
 ### Dataset
  UCI's Spambase data set is being used. We have randomly separated the dataset to training and test dataset.
