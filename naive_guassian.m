@@ -36,9 +36,6 @@ for it  = 1 : size(testData,1)
     for kt = 1:length(o)
         p = 1;
         for ft = 1: size(testData,2)-1
-%             nr = exp(power((testData(it,ft) - m(kt,ft)/(-2 * s(kt,ft))),2));
-%             dr = 1 / sqrt(2 * pi * power(s(kt,ft),2));
-%             n = nr*dr;
             n = normpdf(testData(it,ft),m(kt,ft),s(kt,ft));
             n = prod(n);
             if( isnan(n) == 0)
