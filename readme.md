@@ -156,7 +156,7 @@ Algorithm for a given k and s is explained by the following image:
  Accuracy for test data set for eachc K and C will be printed.
  
  ## Constructing a Bayesian Network Model 
- To cosntruct a Bayesian Network model, we need to construct Info Gain Matrix for each edges and pass through a model which finds the maximum spanning tree. We have used matlab inbuit method to construct maximum spanning tree. 
+ To construct a Bayesian Network model, we need to construct Info Gain Matrix for each edges and pass through a model which finds the maximum spanning tree. We have used matlab inbuit method to construct maximum spanning tree. 
  
 Algorithm for constructing Info Gain Matrix is shown below:
 
@@ -169,5 +169,20 @@ Algorithm for constructing Info Gain Matrix is shown below:
  File name is bayesianNW.m. Just provide the correct path for congress dataset and run the code. 
  
  The maximum spanning tree will be displayed.
+ 
+ ## Using EM algorithm to learn parameters for a Bayesian Network with missing entries
+ We are using the previously constructed bayesian network for this problem, We pass the edges and learn the parameters. First we construct all possible data points if an entry has missing values. Now we find the best point which gives us the maximum probability. We update thethas at the end of a single iteration over entire data set. Den we compare the prev prob of the entire iteration. If it is less than the threshold (converged) we stop. 
+ 
+Algorithm for EM algorithm is shown below:
+
+![alt text](https://github.com/ashwinkumarm/mlAlgorithms/blob/master/images/infogain_BN.png)
+
+### Dataset
+ UCI's congress data set is being used. We have used observation with missing entries.
+ 
+ ### Procedure to run & Result shown
+ File name is bayesianMissingAttr.py. Just provide the correct path for congress dataset and run the code. 
+ 
+ The missing attribute probabilities, log likelihood and learned paramters for each attribute will be printed. 
  
 
