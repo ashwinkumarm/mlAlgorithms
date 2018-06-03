@@ -186,6 +186,7 @@ Algorithm for EM algorithm is shown below:
  The missing attribute probabilities, log likelihood and learned paramters for each attribute will be printed. 
  
  
- References: 
+ 
+ ## References: 
  Implementation details are taken from Nicholas Ruozzi lecture slides-- UTD Professor and Tom Mitchell online video and lecture slides -- CMU Professor. 
 
